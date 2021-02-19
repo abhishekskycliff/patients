@@ -26,7 +26,7 @@ class DoctorState extends State<DoctorScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppbarWidget.getAppBar('hj'),
+      appBar: AppbarWidget.getAppBar('a'),
       drawer: Drawer_Screen(),
       floatingActionButton: FloatingActionButton(
         tooltip: 'Increment',

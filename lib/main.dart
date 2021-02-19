@@ -1,3 +1,4 @@
+import 'package:doctorapp/Screens/Patient.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/doctor_screen.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: DoctorScreen(),
+      home: PatientsScreen(),
     );
   }
 }

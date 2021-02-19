@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AppbarWidget{
-  static getAppBar(String title){
-    return  PreferredSize(
+class AppbarWidget {
+
+  void _itemselected(int selectedindex) {
+    print(selectedindex);
+  }
+
+  static getAppBar(String title) {
+    return PreferredSize(
       preferredSize: Size.fromHeight(60.0),
       child: AppBar(
         elevation: 0,
@@ -24,6 +29,7 @@ class AppbarWidget{
         ),
         actions: [
           PopupMenuButton<int>(
+           // onSelected: _itemselected,
             icon: Icon(Icons.more_vert),
             offset: Offset(0, 60),
             // currentIndex: _selectedIndex,

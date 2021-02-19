@@ -32,10 +32,19 @@ dependencies:
   date_picker_timeline: ^1.2.1
   hexcolor: ^1.0.6
   http: ^0.12.2
+  image_picker: ^0.6.7+22
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.7.0
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "asset/launcher/icon.png"
+  image_path_android: "asset/launcher/icon.png"
+  adaptive_icon_background: "asset/launcher/background.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

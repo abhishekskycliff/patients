@@ -1,3 +1,4 @@
+import 'package:doctorapp/Screens/Patient.dart';
 import 'package:flutter/material.dart';
 
 
@@ -34,6 +35,11 @@ class Profile_Screen extends State<Drawer_Screen>{
             ListTile(
                 leading: Icon(Icons.account_circle),
                 title: Text("My account"),
+              onTap: (){
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => PatientsScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.pending_actions),
